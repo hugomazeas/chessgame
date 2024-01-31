@@ -1,0 +1,33 @@
+.square{
+    width: 64px;
+    height: 64px;
+    border: 1px solid black;
+}
+.square_black{
+    background-color: rgb(56, 56, 56);
+}
+.square_white{
+    background-color: bisque;
+}
+body{
+    background-color: rgb(250, 233, 218) !important;
+}
+
+.board_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(64px * 8);
+    height: calc(64px * 8);
+    margin: 0;
+}
+.square_possible_move{
+    background-color: rgb(145, 240, 126);
+    cursor: pointer;
+}
+.square_possible_kill{
+    background-color: rgb(240, 126, 126);
+    cursor: pointer;
+}
+img{
+    cursor: pointer;
+}
